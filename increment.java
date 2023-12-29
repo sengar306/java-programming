@@ -5,7 +5,8 @@ class increment{
          int z=10;
         int y= ++x - z++;
         int m=++x + --y + z--;
+        int r=++z;
         System.out.println(y);
-        System.out.println(m);
+        System.out.println(r);
     }
 }
