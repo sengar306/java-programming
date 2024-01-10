@@ -1,4 +1,4 @@
-package prjectshape;
+package ProjectShape;
 
 public interface Shape {
 

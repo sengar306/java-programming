@@ -1,8 +1,8 @@
-package prjectshape;
+package ProjectShape;
 import java.util.*;
 
 
-public class sphere extends predisplay  implements Shape {
+public class sphere extends calculation  implements Shape {
 
     Scanner sc=new Scanner(System.in);
     float radius;

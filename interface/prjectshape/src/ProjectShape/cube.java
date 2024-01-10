@@ -1,8 +1,8 @@
-package prjectshape;
+package  ProjectShape;
 import java.util.*;
 
 
-public class cube extends predisplay  implements Shape {
+public class cube extends calculation  implements Shape {
 
     Scanner sc=new Scanner(System.in);
     float side;

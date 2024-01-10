@@ -1,11 +1,11 @@
-package prjectshape;
+package ProjectShape;
 
 import java.util.*;
 
 
-public class prjectshape{
+public class shape3DProject{
     public static void main(String[] args) throws Exception {
-     predisplay p1=new predisplay();
+     calculation p1=new calculation();
      p1.pre();
       
     }

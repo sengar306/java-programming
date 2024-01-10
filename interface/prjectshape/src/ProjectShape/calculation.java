@@ -1,8 +1,8 @@
-package prjectshape;
+package ProjectShape;
 
 import java.util.Scanner;
 
-public class predisplay {
+public class calculation {
 	boolean con;
 	 Scanner sc=new Scanner(System.in);
 	

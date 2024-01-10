@@ -1,8 +1,8 @@
-package prjectshape;
+package ProjectShape;
 import java.util.*;
 
 
-public class cone extends predisplay  implements Shape {
+public class cone extends calculation  implements Shape {
 
     Scanner sc=new Scanner(System.in);
     float length;
