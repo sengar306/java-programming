@@ -15,6 +15,7 @@ class Number{
          num2=sc.nextInt();
 
     }
+
     public void display()
     {
         System.out.println("__---------------------------------------------");

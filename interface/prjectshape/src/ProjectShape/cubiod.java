@@ -1,8 +1,8 @@
-package ProjectShape;
+package prjectshape;
 import java.util.*;
 
-
-public class cubiod extends calculation  implements Shape {
+//this class for cube 
+public class cubiod extends predisplay  implements Shape {
 
     Scanner sc=new Scanner(System.in);
     float length;
