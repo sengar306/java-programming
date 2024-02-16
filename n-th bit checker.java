@@ -18,6 +18,6 @@ public class CheckNthBit {
         // Display the result
         System.out.println("The " + n + "th bit is " + result);
         
-        scanner.close();
+        
     }
 }

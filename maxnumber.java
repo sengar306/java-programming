@@ -1,25 +1,38 @@
 import java.util.Scanner;
 
-public class MaxNumberFinder {
+
+class MaxFinder {
+    // Method to find the maximum of two numbers
+    public static double findMax(double num1, double num2) {
+        return (num1 >= num2) ? num1 : num2;
+    }
+}
+
+
+public class maxnumber {
     public static void main(String[] args) {
-        // Create a Scanner object for input
+        // Create a Scanner object to take input
         Scanner scanner = new Scanner(System.in);
 
-        // Input the first number
+        // Input two numbers
         System.out.print("Enter the first number: ");
-        int num1 = scanner.nextInt();
+        double num1 = scanner.nextDouble();
 
-        // Input the second number
         System.out.print("Enter the second number: ");
-        int num2 = scanner.nextInt();
+        double num2 = scanner.nextDouble();
 
-        // Find the maximum using the ternary operator
-        int maxNumber = (num1 > num2) ? num1 : num2;
+        // Create an object of MaxFinder class
+        MaxFinder maxFinder = new MaxFinder();
+
+        // Use the object to find the maximum
+        double maxNumber = maxFinder.findMax(num1, num2);
 
         // Display the result
-        System.out.println("The maximum between " + num1 + " and " + num2 + " is: " + maxNumber);
+        if (num1 == num2) {
+            System.out.println("The numbers are equal: " + num1 + " and " + num2);
+        } else {
+            System.out.println("The maximum between " + num1 + " and " + num2 + " is: " + maxNumber);
+        }
 
-        // Close the scanner to avoid resource leak
-        scanner.close();
     }
 }
