@@ -19,7 +19,7 @@ public class Maximum_queue {
             for (int i = 0; i < 10; i++) {
                 System.out.print("Number " + (i + 1) + ": ");
                 int num = scanner.nextInt();
-                numberQueue.add(num);
+                numberQueue.offer(num);
             }
 
     
